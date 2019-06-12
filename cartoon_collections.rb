@@ -21,6 +21,3 @@ def find_the_cheese(array)
   end
   return cheese_found
 end
-
-
-end
