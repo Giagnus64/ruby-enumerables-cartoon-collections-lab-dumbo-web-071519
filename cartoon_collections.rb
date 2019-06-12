@@ -14,7 +14,7 @@ def find_the_cheese(array)
   cheese_found = nil
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheese_types.length.times do |index|
-    if array.include(cheese_types[index])
+    if array.include?(cheese_types[index])
       cheese_found = cheese_types[index]
     end
   end
