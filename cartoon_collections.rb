@@ -18,6 +18,7 @@ def find_the_cheese(array)
     if array.include(cheese_types[index])
       cheese_found = cheese_types[index]
     end
+  end
   return cheese_found
   end
 
