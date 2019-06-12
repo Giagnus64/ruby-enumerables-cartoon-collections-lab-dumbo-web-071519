@@ -16,6 +16,7 @@ def find_the_cheese(array)
   cheese_types.length.times do |index|
     if array.include?(cheese_types[index])
       cheese_found = cheese_types[index]
+      break
     end
   end
   return cheese_found
